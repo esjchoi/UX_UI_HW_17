@@ -1,7 +1,7 @@
 .inline-block{
     display:inline-block;
     vertical-align: top;
-    background-color:darkgoldenrod;
+    background-color:rgb(221, 154, 66);
     width:100%;
     height:100px;
 }
@@ -36,6 +36,8 @@ ul{
     margin:0 auto;
     display:flex;
     flex-direction:row-reverse;
+    justify-content:center;
+    align-items:center;
 
 }
 
@@ -43,17 +45,18 @@ footer{
     background-color:#373738;
     padding-top: 5px;
     padding-bottom: 5px;
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
 
-.navlist{
-    display:inline-block;
+#navlist{
     display:flex;
-    text-align:start;
+    align-items:flex-start;
 
 }
 .footerlist{
-    display:inline-block;
-    vertical-align:top;
+    vertical-align:bottom;
     display:flex;
 
 }
@@ -71,10 +74,19 @@ li{
     display:flex;
 }
 
+
+.selfie{
+    width:30%;
+}
+
 button{
     height:fit-content;
+    background-color:darkkhaki;
+    border-radius: 20px;
+    padding:5px;
 }
 
 .description{
+    width:50%;
 
 }
